@@ -1,0 +1,7 @@
+/home/edwardpatch1/Projects/Web Applications/NoASP++/Server/-out/Server
+/home/edwardpatch1/Projects/Web Applications/NoASP++/Server/-out/appsettings.Development.json
+/home/edwardpatch1/Projects/Web Applications/NoASP++/Server/-out/appsettings.json
+/home/edwardpatch1/Projects/Web Applications/NoASP++/Server/-out/Server.dll
+/home/edwardpatch1/Projects/Web Applications/NoASP++/Server/-out/Server.deps.json
+/home/edwardpatch1/Projects/Web Applications/NoASP++/Server/-out/Server.runtimeconfig.json
+/home/edwardpatch1/Projects/Web Applications/NoASP++/Server/-out/Server.pdb
