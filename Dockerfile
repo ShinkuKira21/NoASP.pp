@@ -37,7 +37,7 @@ RUN dotnet publish -c Release -o ./out --no-restore
 
 FROM nodeenv as client
 # Expose our webservers port number
-EXPOSE 8000
+EXPOSE 80
 # Change to the working directory
 WORKDIR /var/www/node
 # Execute the application
