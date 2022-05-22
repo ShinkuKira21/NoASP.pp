@@ -16,7 +16,7 @@ LABEL author="Edward Patch" email="crazygaming055@gmail.com"
 
 # Create and change the working directory
 WORKDIR /var/www/node
-RUN curl -fssL https://deb.nodesource.com/setup_17.x | sudo -E bash && \
+RUN curl -fssL https://deb.nodesource.com/setup_18.x | sudo -E bash && \
 apt-get install -y nodejs
 RUN npm install -g npm && \
 npm install -g npx --force
@@ -37,7 +37,7 @@ RUN dotnet publish -c Release -o ./out --no-restore
 
 FROM nodeenv as client
 # Expose our webservers port number
-EXPOSE 1500
+EXPOSE 8000
 # Change to the working directory
 WORKDIR /var/www/node
 # Execute the application
