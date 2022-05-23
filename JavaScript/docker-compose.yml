@@ -13,6 +13,7 @@ services:
       - dbnetwork
     volumes:
       - ./Client:/var/www/node
+      - /var/www/node/node_modules
   server:
     build:
       context: .

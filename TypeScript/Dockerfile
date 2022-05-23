@@ -24,6 +24,9 @@ RUN apt-get install inotify-tools -y
 RUN npm install -g nodemon
 RUN apt-get clean
 
+COPY Client/package.json ./
+RUN npm install
+
 #### ASP.NET ##############
 FROM mcr.microsoft.com/dotnet/sdk:6.0 as aspenv
 WORKDIR /var/www/dotnet
