@@ -41,7 +41,7 @@ EXPOSE 80
 # Change to the working directory
 WORKDIR /var/www/node
 # Execute the application
-ENTRYPOINT ["npm", "run", "dev"]
+ENTRYPOINT ["npm", "run", "preview"]
 
 #### THE WEB Server ##############
 
