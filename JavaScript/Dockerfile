@@ -48,6 +48,6 @@ ENTRYPOINT ["npm", "run", "dev"]
 # Build runtime image
 FROM aspenv as server
 EXPOSE 3000
-ENV ASPNETCORE_URLS=https://*:3000
+ENV ASPNETCORE_URLS=http://*:3000
 WORKDIR /var/www/dotnet
 ENTRYPOINT ["dotnet", "out/Server.dll"]
