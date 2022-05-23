@@ -24,11 +24,6 @@ RUN apt-get install inotify-tools -y
 RUN npm install -g nodemon
 RUN apt-get clean
 
-COPY Client/package.json ./
-COPY Client/package-lock.json ./
-RUN npm install
-COPY Client/. ./
-
 #### ASP.NET ##############
 FROM mcr.microsoft.com/dotnet/sdk:6.0 as aspenv
 WORKDIR /var/www/dotnet
@@ -45,6 +40,7 @@ FROM nodeenv as client
 EXPOSE 443
 # Change to the working directory
 WORKDIR /var/www/node
+RUN ls
 # Execute the application
 ENTRYPOINT ["npm", "run", "dev"]
 
