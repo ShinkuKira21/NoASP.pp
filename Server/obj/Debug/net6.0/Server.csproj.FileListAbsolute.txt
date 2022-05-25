@@ -1,0 +1,68 @@
+/home/edwardpatch1/Projects/Web Applications/NoASP++/Server/bin/Debug/net6.0/appsettings.Development.json
+/home/edwardpatch1/Projects/Web Applications/NoASP++/Server/bin/Debug/net6.0/appsettings.json
+/home/edwardpatch1/Projects/Web Applications/NoASP++/Server/bin/Debug/net6.0/Server
+/home/edwardpatch1/Projects/Web Applications/NoASP++/Server/bin/Debug/net6.0/Server.deps.json
+/home/edwardpatch1/Projects/Web Applications/NoASP++/Server/bin/Debug/net6.0/Server.runtimeconfig.json
+/home/edwardpatch1/Projects/Web Applications/NoASP++/Server/bin/Debug/net6.0/Server.dll
+/home/edwardpatch1/Projects/Web Applications/NoASP++/Server/bin/Debug/net6.0/ref/Server.dll
+/home/edwardpatch1/Projects/Web Applications/NoASP++/Server/bin/Debug/net6.0/Server.pdb
+/home/edwardpatch1/Projects/Web Applications/NoASP++/Server/obj/Debug/net6.0/Server.csproj.AssemblyReference.cache
+/home/edwardpatch1/Projects/Web Applications/NoASP++/Server/obj/Debug/net6.0/Server.GeneratedMSBuildEditorConfig.editorconfig
+/home/edwardpatch1/Projects/Web Applications/NoASP++/Server/obj/Debug/net6.0/Server.AssemblyInfoInputs.cache
+/home/edwardpatch1/Projects/Web Applications/NoASP++/Server/obj/Debug/net6.0/Server.AssemblyInfo.cs
+/home/edwardpatch1/Projects/Web Applications/NoASP++/Server/obj/Debug/net6.0/Server.csproj.CoreCompileInputs.cache
+/home/edwardpatch1/Projects/Web Applications/NoASP++/Server/obj/Debug/net6.0/Server.MvcApplicationPartsAssemblyInfo.cache
+/home/edwardpatch1/Projects/Web Applications/NoASP++/Server/obj/Debug/net6.0/staticwebassets.build.json
+/home/edwardpatch1/Projects/Web Applications/NoASP++/Server/obj/Debug/net6.0/staticwebassets.development.json
+/home/edwardpatch1/Projects/Web Applications/NoASP++/Server/obj/Debug/net6.0/scopedcss/bundle/Server.styles.css
+/home/edwardpatch1/Projects/Web Applications/NoASP++/Server/obj/Debug/net6.0/Server.dll
+/home/edwardpatch1/Projects/Web Applications/NoASP++/Server/obj/Debug/net6.0/ref/Server.dll
+/home/edwardpatch1/Projects/Web Applications/NoASP++/Server/obj/Debug/net6.0/Server.pdb
+/home/edwardpatch1/Projects/Web Applications/NoASP++/Server/obj/Debug/net6.0/Server.genruntimeconfig.cache
+/var/www/dotnet/bin/Debug/net6.0/appsettings.Development.json
+/var/www/dotnet/bin/Debug/net6.0/appsettings.json
+/var/www/dotnet/bin/Debug/net6.0/Server
+/var/www/dotnet/bin/Debug/net6.0/Server.deps.json
+/var/www/dotnet/bin/Debug/net6.0/Server.runtimeconfig.json
+/var/www/dotnet/bin/Debug/net6.0/Server.dll
+/var/www/dotnet/bin/Debug/net6.0/ref/Server.dll
+/var/www/dotnet/bin/Debug/net6.0/Server.pdb
+/var/www/dotnet/obj/Debug/net6.0/Server.csproj.AssemblyReference.cache
+/var/www/dotnet/obj/Debug/net6.0/Server.GeneratedMSBuildEditorConfig.editorconfig
+/var/www/dotnet/obj/Debug/net6.0/Server.AssemblyInfoInputs.cache
+/var/www/dotnet/obj/Debug/net6.0/Server.AssemblyInfo.cs
+/var/www/dotnet/obj/Debug/net6.0/Server.csproj.CoreCompileInputs.cache
+/var/www/dotnet/obj/Debug/net6.0/Server.MvcApplicationPartsAssemblyInfo.cache
+/var/www/dotnet/obj/Debug/net6.0/staticwebassets.build.json
+/var/www/dotnet/obj/Debug/net6.0/staticwebassets.development.json
+/var/www/dotnet/obj/Debug/net6.0/scopedcss/bundle/Server.styles.css
+/var/www/dotnet/obj/Debug/net6.0/Server.dll
+/var/www/dotnet/obj/Debug/net6.0/ref/Server.dll
+/var/www/dotnet/obj/Debug/net6.0/Server.pdb
+/var/www/dotnet/obj/Debug/net6.0/Server.genruntimeconfig.cache
+/var/www/dotnet/bin/Debug/net6.0/out/web.config
+/var/www/dotnet/bin/Debug/net6.0/out/appsettings.Development.json
+/var/www/dotnet/bin/Debug/net6.0/out/appsettings.json
+/var/www/dotnet/bin/Debug/net6.0/out/Server.deps.json
+/var/www/dotnet/bin/Debug/net6.0/out/Server.runtimeconfig.json
+/home/skira21/Projects/WebstormProjects/NoASP.pp/Server/bin/Debug/net6.0/appsettings.Development.json
+/home/skira21/Projects/WebstormProjects/NoASP.pp/Server/bin/Debug/net6.0/appsettings.json
+/home/skira21/Projects/WebstormProjects/NoASP.pp/Server/bin/Debug/net6.0/Server
+/home/skira21/Projects/WebstormProjects/NoASP.pp/Server/bin/Debug/net6.0/Server.deps.json
+/home/skira21/Projects/WebstormProjects/NoASP.pp/Server/bin/Debug/net6.0/Server.runtimeconfig.json
+/home/skira21/Projects/WebstormProjects/NoASP.pp/Server/bin/Debug/net6.0/Server.dll
+/home/skira21/Projects/WebstormProjects/NoASP.pp/Server/bin/Debug/net6.0/Server.pdb
+/home/skira21/Projects/WebstormProjects/NoASP.pp/Server/obj/Debug/net6.0/Server.csproj.AssemblyReference.cache
+/home/skira21/Projects/WebstormProjects/NoASP.pp/Server/obj/Debug/net6.0/Server.GeneratedMSBuildEditorConfig.editorconfig
+/home/skira21/Projects/WebstormProjects/NoASP.pp/Server/obj/Debug/net6.0/Server.AssemblyInfoInputs.cache
+/home/skira21/Projects/WebstormProjects/NoASP.pp/Server/obj/Debug/net6.0/Server.AssemblyInfo.cs
+/home/skira21/Projects/WebstormProjects/NoASP.pp/Server/obj/Debug/net6.0/Server.csproj.CoreCompileInputs.cache
+/home/skira21/Projects/WebstormProjects/NoASP.pp/Server/obj/Debug/net6.0/Server.MvcApplicationPartsAssemblyInfo.cache
+/home/skira21/Projects/WebstormProjects/NoASP.pp/Server/obj/Debug/net6.0/staticwebassets.build.json
+/home/skira21/Projects/WebstormProjects/NoASP.pp/Server/obj/Debug/net6.0/staticwebassets.development.json
+/home/skira21/Projects/WebstormProjects/NoASP.pp/Server/obj/Debug/net6.0/scopedcss/bundle/Server.styles.css
+/home/skira21/Projects/WebstormProjects/NoASP.pp/Server/obj/Debug/net6.0/Server.dll
+/home/skira21/Projects/WebstormProjects/NoASP.pp/Server/obj/Debug/net6.0/refint/Server.dll
+/home/skira21/Projects/WebstormProjects/NoASP.pp/Server/obj/Debug/net6.0/Server.pdb
+/home/skira21/Projects/WebstormProjects/NoASP.pp/Server/obj/Debug/net6.0/Server.genruntimeconfig.cache
+/home/skira21/Projects/WebstormProjects/NoASP.pp/Server/obj/Debug/net6.0/ref/Server.dll
