@@ -13,6 +13,7 @@ Step 1: Run ```sudo docker-compose build``` to build the project with Docker.
 Step 2: Run ```sudo docker-compose up``` to run the frontend and backend.
 
 **NPM and DOTNET**
+
 Step NPM 1: ```cd Client```.
 
 Step NPM 2: ```npm install```.
