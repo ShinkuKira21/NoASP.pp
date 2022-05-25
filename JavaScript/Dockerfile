@@ -35,6 +35,7 @@ RUN dotnet restore
 
 COPY Server/. .
 RUN dotnet publish -c Release -o ./out --no-restore
+RUN dotnet dev-certs https
 
 #### THE WEB Client ##############
 
@@ -51,6 +52,6 @@ ENTRYPOINT ["npm", "run", "dev"]
 # Build runtime image
 FROM aspenv as server
 EXPOSE 3000
-ENV ASPNETCORE_URLS=http://*:3000
+ENV ASPNETCORE_URLS=https://*:3000
 WORKDIR /var/www/dotnet
 ENTRYPOINT ["dotnet", "out/Server.dll"]
