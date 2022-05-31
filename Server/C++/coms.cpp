@@ -6,7 +6,7 @@
 
 char* CPostReply(const char* msg)
 {
-    std::string res = "Hello " + std::string(msg) + "!";
+    std::string res = "Hello " + std::string(msg) + "! ";
     res += "This char* message is from C++";
 
     char* cStr = Tools::StrToChar(res);
