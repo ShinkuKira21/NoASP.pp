@@ -22,4 +22,4 @@ Step NPM 3: ```npm run dev``` *(take a look into the package.json to see the oth
 
 Step DN 1: ```cd Server```.
 
-Step DN 2: ```dotnet run --urls=https://*:3000```.
+Step DN 2: ```dotnet run```.
