@@ -6,7 +6,6 @@ const WelcomeAPI = (welcomeID: string, welcomeBodyID: string) => {
             cache: false,
             type: 'GET',
             url: 'http://localhost:3000/api',
-            accept: 'application/json',
             contentType: 'application/json; charset=utf-8',
             success: (res) => {
                   $(welcomeID).html(res);
