@@ -1,10 +1,11 @@
 //
 // Created by skira21 on 5/31/22.
 //
-
 #include "coms.h"
+#include "Tools/tools.hpp"
 
-char* CPostReply(const char* msg)
+
+EXPORT char* CPostReply(const char* msg)
 {
     std::string res = "Hello " + std::string(msg) + "! ";
     res += "This char* message is from C++";
@@ -13,5 +14,5 @@ char* CPostReply(const char* msg)
     return cStr;
 }
 
-void DeleteCPointer(char* cPointer)
+EXPORT void DeleteCPointer(char* cPointer)
 { delete[] cPointer; }

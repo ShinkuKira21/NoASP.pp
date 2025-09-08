@@ -1,9 +1,10 @@
-g++ -c ../CPPFiles/coms.cpp -o cPostLib.o
-gcc -shared -o cPostLib.so cPostLib.o
+g++ -c ../src/coms.cpp -o cPostLib.o
+gcc -shared -o ../bin/cPostLib.so cPostLib.o
 
 rm cPostLib.o
 # only copies if dotnet run is ran first :)
-cp cPostLib.so ../../bin/Debug/net6.0
+# Update the .NET Framework version in the Server.csproj file if you change this path
+cp ../bin/cPostLib.so ../../bin/Debug/net9.0
 
 # docker
 #cd ../

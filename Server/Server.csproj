@@ -1,13 +1,31 @@
-<Project Sdk="Microsoft.NET.Sdk.Web">
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
 
-  <PropertyGroup>
-    <TargetFramework>net6.0</TargetFramework>
-    <Nullable>enable</Nullable>
-    <ImplicitUsings>enable</ImplicitUsings>
-  </PropertyGroup>
+	<PropertyGroup>
+		<TargetFramework>net9.0</TargetFramework>
+		<Nullable>enable</Nullable>
+		<ImplicitUsings>enable</ImplicitUsings>
+	</PropertyGroup>
 
-  <ItemGroup>
-    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
-  </ItemGroup>
+	<!-- Windows symbol definition -->
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU' and '$([MSBuild]::IsOSPlatform(`Windows`))'">
+		<DefineConstants>$(DefineConstants);Windows</DefineConstants>
+	</PropertyGroup>
 
+	<ItemGroup>
+		<PackageReference Include="Swashbuckle.AspNetCore" Version="9.0.4" />
+	</ItemGroup>
+
+	<ItemGroup Condition="'$([MSBuild]::IsOSPlatform(`Windows`))'">
+		<ProjectReference Include="C++\Windows-Project\CPostLib.vcxproj">
+		<ReferenceOutputAssembly>False</ReferenceOutputAssembly>
+		</ProjectReference>
+	</ItemGroup>
+
+	<!-- Correct ProjectReference with proper settings -->
+
+	<!-- Improved native library check -->
+	<Target Name="EnsureNativeLibExists" BeforeTargets="Build">
+		<Message Text="Checking for native library..." />
+		<Error Condition="'$([MSBuild]::IsOSPlatform(`Windows`))' and !Exists('$(SolutionDir)bin\$(Configuration)\net9.0\cPostLib.dll')" Text="Native library cPostLib.dll not found! Build the C++ project first." />
+	</Target>
 </Project>
