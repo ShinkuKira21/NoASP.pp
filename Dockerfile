@@ -1,4 +1,4 @@
-FROM ubuntu as developer-os
+FROM ubuntu AS developer-os
 LABEL name="Edward Patch" email="1801492@student.uwtsd.ac.uk"
 ENV DEBIAN_FRONTEND noninteractive
 RUN apt-get update --fix-missing && \
@@ -11,7 +11,7 @@ RUN apt-get install -y sudo
 RUN echo "export SERVER_IP_ADDRESS=0.0.0.0" >> /etc/profile
 RUN apt-get clean
 
-FROM developer-os as nodeenv
+FROM developer-os AS nodeenv
 LABEL author="Edward Patch" email="crazygaming055@gmail.com"
 
 # Create and change the working directory
@@ -28,21 +28,22 @@ COPY Client/package.json ./
 RUN npm install
 
 #### ASP.NET ##############
-FROM mcr.microsoft.com/dotnet/sdk:6.0 as aspenv
+FROM mcr.microsoft.com/dotnet/sdk:9.0 AS aspenv
 WORKDIR /var/www/dotnet
-COPY Server/*.csproj .
+
+COPY Server/ .
 RUN dotnet restore
 
-COPY Server/. .
+
 RUN dotnet publish -c Release -o ./out --no-restore
  
 # To update the C++ library, run the compile-library script.
 # Comment this out if you do not want a C++ library.
-RUN cd C++ && mv cPostLib.so ../out/
+RUN mv C++/bin/cPostLib.so ./out/
 
 #### THE WEB Client ##############
 
-FROM nodeenv as client
+FROM nodeenv AS client
 # Expose our webservers port number
 EXPOSE 443
 # Change to the working directory
@@ -54,7 +55,7 @@ ENTRYPOINT ["npm", "run", "dev"]
 #### THE WEB Server ##############
 
 # Build runtime image
-FROM aspenv as server
+FROM aspenv AS server
 EXPOSE 3000
 ENV ASPNETCORE_URLS=http://*:3000
 WORKDIR /var/www/dotnet

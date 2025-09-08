@@ -9,7 +9,7 @@
     },
     "devDependencies": {
         "@types/jquery": "^3.5.14",
-        "vite": "^2.9.9"
+        "vite": "^6.3.5"
     },
     "dependencies": {
         "jquery": "^3.6.0"

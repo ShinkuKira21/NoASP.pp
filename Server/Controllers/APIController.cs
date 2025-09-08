@@ -35,21 +35,8 @@ public class APIController : ControllerBase
     [Route("CppPost")]
     public ActionResult<String> CppPost([FromBody] String name)
     {
-        /* The C++ version is basic implementation, but provides a method to process information
-         at high performance, whether it's information from the front-end (or) ASP.NET backend.
-         
-         The C++ implementation is an add-on and does not have to be used. 
-         However, the template is aimed to provide some sort of C++ implementation for further use.
-         */
+        String msg = CPPPostData.PostReply(name);
 
-        // Converts IntPtr (const char*) to String
-        IntPtr cPtr = CPPPostData.CPostReply(name);
-        if(cPtr == IntPtr.Zero)
-        { return BadRequest("Error: C++ Post Failed!"); }
-
-        String cString = Marshal.PtrToStringAnsi(cPtr);
-        CPPPostData.DeleteCPointer(cPtr);
-
-        return Ok(cString);
+        return Ok(msg);
     }
 }

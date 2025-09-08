@@ -1,3 +1,5 @@
-.idea
-*.zip
-package-lock.json
+/Server/bin
+/Server/obj
+/Server/.vs
+/Server/C++/Windows-Project/.vs
+/Server/C++/Windows-Project/cPostLib
